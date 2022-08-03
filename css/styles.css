@@ -847,8 +847,6 @@ img {
 	line-height: calc(24 / 14);
 	user-select: none;
 	text-underline-position: under;
-
-	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .register-form-agreement:focus-within {
 	box-shadow: 0 0 0 2px #212121;
