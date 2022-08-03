@@ -511,12 +511,14 @@ img {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-.footer-subscribe-box {
+
+.footer-form {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 12px;
 }
+
 .footer-form-input {
 	width: 358px;
 	height: 50px;
@@ -709,8 +711,8 @@ img {
 	top: 50%;
 	left: 50%;
 
-	min-width: 528px;
-	min-height: 581px;
+	width: 528px;
+	height: 581px;
 
 	opacity: 1;
 
@@ -780,6 +782,10 @@ img {
 }
 .register-form-label {
 	color: var(--gray-text-color);
+	font-size: 12px;
+	line-height: calc(14 / 12);
+	letter-spacing: 0.01em;
+
 	display: block;
 	text-align: left;
 	margin-bottom: 4px;
@@ -800,6 +806,9 @@ img {
 	outline: transparent;
 
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.register-form-input {
+	height: 40px;
 }
 
 .register-form-input:focus,
@@ -839,9 +848,11 @@ img {
 	user-select: none;
 	text-underline-position: under;
 }
+
 .register-form-agreement-text-link {
 	color: var(--blue-text-color);
 }
+
 .register-checkbox:checked + .register-icon .register-icon-uncheck {
 	opacity: 0;
 }
@@ -851,6 +862,10 @@ img {
 }
 .register-checkbox:checked + .register-icon .register-icon-check {
 	opacity: 1;
+}
+.register-icon-uncheck:focus,
+.register-icon-check:focus {
+	outline: var(--black-text-color);
 }
 
 .register-form-btn {
