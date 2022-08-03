@@ -848,6 +848,10 @@ img {
 	user-select: none;
 	text-underline-position: under;
 }
+.register-form-agreement:focus-within {
+	box-shadow: 0 0 0 2px black;
+	border-radius: 2px;
+}
 
 .register-form-agreement-text-link {
 	color: var(--blue-text-color);
@@ -862,10 +866,6 @@ img {
 }
 .register-checkbox:checked + .register-icon .register-icon-check {
 	opacity: 1;
-}
-.register-icon-uncheck:focus,
-.register-icon-check:focus {
-	outline: var(--black-text-color);
 }
 
 .register-form-btn {
