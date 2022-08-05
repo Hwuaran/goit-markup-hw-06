@@ -848,7 +848,7 @@ img {
 	user-select: none;
 	text-underline-position: under;
 }
-.register-form-agreement:focus-within {
+.register-checkbox:focus-within + .register-icon {
 	box-shadow: 0 0 0 2px #212121;
 	border-radius: 2px;
 }
